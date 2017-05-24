@@ -170,16 +170,16 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)/**",
+					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(SRCROOT)/../../../ios/Carthage/Build/iOS/**/**",
 				);
 				HEADER_SEARCH_PATHS = (
-					"$(inherited)/**",
+					"$(inherited)",
 					"$(SRCROOT)/../../../ios/Pods/UrbanAirship-iOS-SDK/AirshipKit/AirshipKit/**",
 					"$(SRCROOT)/../sample/AirshipSample/ios/Pods/UrbanAirship-iOS-SDK/AirshipKit/AirshipKit",
 					"$(SRCROOT)/../../../ios/Carthage/Build/iOS/AirshipKit.framework/**/**",
-					"$(SRCROOT)/AirshipKit.framework/Headers/**/**",
+					"$(SRCROOT)/ios/AirshipKit.framework/Headers/**/**",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
@@ -200,16 +200,16 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)/**",
+					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(SRCROOT)/../../../ios/Carthage/Build/iOS/**/**",
 				);
 				HEADER_SEARCH_PATHS = (
-					"$(inherited)/**",
+					"$(inherited)",
 					"$(SRCROOT)/../../../ios/Pods/UrbanAirship-iOS-SDK/AirshipKit/AirshipKit/**",
 					"$(SRCROOT)/../sample/AirshipSample/ios/Pods/UrbanAirship-iOS-SDK/AirshipKit/AirshipKit",
 					"$(SRCROOT)/../../../ios/Carthage/Build/iOS/AirshipKit.framework/**/**",
-					"$(SRCROOT)/AirshipKit.framework/Headers/**/**",
+					"$(SRCROOT)/ios/AirshipKit.framework/Headers/**/**",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
