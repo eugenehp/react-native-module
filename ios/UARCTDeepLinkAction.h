@@ -1,6 +1,6 @@
 /* Copyright 2017 Urban Airship and Contributors */
 
-#import "AirshipLib.h"
+#import <AirshipKit/AirshipLib.h>
 
 /**
  * Deep link delegate method.

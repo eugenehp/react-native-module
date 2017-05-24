@@ -5,7 +5,7 @@
 #import "UARCTEventEmitter.h"
 #import "UARCTDeepLinkAction.h"
 
-#import "AirshipLib.h"
+#import <AirshipKit/AirshipLib.h>
 
 NSString *const UARCTPresentationOptionsStorageKey = @"com.urbanairship.presentation_options";
 

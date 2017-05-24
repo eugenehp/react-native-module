@@ -1,7 +1,7 @@
 /* Copyright 2017 Urban Airship and Contributors */
 
 #import "UrbanAirshipReactModule.h"
-#import "AirshipLib.h"
+#import <AirshipKit/AirshipLib.h>
 #import "UARCTEventEmitter.h"
 #import "UARCTDeepLinkAction.h"
 #import "UARCTAutopilot.h"

@@ -2,7 +2,7 @@
 
 #import <Foundation/Foundation.h>
 #import <React/RCTEventEmitter.h>
-#import "AirshipLib.h"
+#import <AirshipKit/AirshipLib.h>
 #import "UARCTDeepLinkAction.h"
 
 extern NSString *const UARCTNotificationPresentationAlertKey;
