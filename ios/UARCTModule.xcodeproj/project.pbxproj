@@ -180,6 +180,7 @@
 					"$(SRCROOT)/../sample/AirshipSample/ios/Pods/UrbanAirship-iOS-SDK/AirshipKit/AirshipKit",
 					"$(SRCROOT)/../../../ios/Carthage/Build/iOS/AirshipKit.framework/**/**",
 					"$(SRCROOT)/ios/AirshipKit.framework/Headers/**/**",
+					"$(SRCROOT)/../../../ios/Frameworks/AirshipKit.framework/Headers/**/**",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
@@ -210,6 +211,7 @@
 					"$(SRCROOT)/../sample/AirshipSample/ios/Pods/UrbanAirship-iOS-SDK/AirshipKit/AirshipKit",
 					"$(SRCROOT)/../../../ios/Carthage/Build/iOS/AirshipKit.framework/**/**",
 					"$(SRCROOT)/ios/AirshipKit.framework/Headers/**/**",
+					"$(SRCROOT)/../../../ios/Frameworks/AirshipKit.framework/Headers/**/**",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
