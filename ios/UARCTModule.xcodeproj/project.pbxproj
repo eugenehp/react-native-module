@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		291E15D41ED5289100E3D4EE /* AirshipAppExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 291E15D21ED5289100E3D4EE /* AirshipAppExtensions.framework */; };
+		291E15D51ED5289100E3D4EE /* AirshipKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 291E15D31ED5289100E3D4EE /* AirshipKit.framework */; };
 		6E42C7AF1EBA953100C85B3A /* UARCTAutopilot.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E42C7AC1EBA953100C85B3A /* UARCTAutopilot.m */; };
 		6E42C7B01EBA953100C85B3A /* UrbanAirshipReactModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E42C7AE1EBA953100C85B3A /* UrbanAirshipReactModule.m */; };
 		6E42C8551EC0DD0900C85B3A /* UARCTEventEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E42C8541EC0DD0900C85B3A /* UARCTEventEmitter.m */; };
@@ -26,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		291E15D21ED5289100E3D4EE /* AirshipAppExtensions.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AirshipAppExtensions.framework; sourceTree = "<group>"; };
+		291E15D31ED5289100E3D4EE /* AirshipKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AirshipKit.framework; sourceTree = "<group>"; };
 		6E42C7AB1EBA953100C85B3A /* UARCTAutopilot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UARCTAutopilot.h; path = UARCTModule/UARCTAutopilot.h; sourceTree = "<group>"; };
 		6E42C7AC1EBA953100C85B3A /* UARCTAutopilot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UARCTAutopilot.m; path = UARCTModule/UARCTAutopilot.m; sourceTree = "<group>"; };
 		6E42C7AD1EBA953100C85B3A /* UrbanAirshipReactModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UrbanAirshipReactModule.h; path = UARCTModule/UrbanAirshipReactModule.h; sourceTree = "<group>"; };
@@ -42,6 +46,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				291E15D51ED5289100E3D4EE /* AirshipKit.framework in Frameworks */,
+				291E15D41ED5289100E3D4EE /* AirshipAppExtensions.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +89,8 @@
 		93E0043D1CE3C34B000598E3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				291E15D21ED5289100E3D4EE /* AirshipAppExtensions.framework */,
+				291E15D31ED5289100E3D4EE /* AirshipKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -161,6 +169,11 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(SRCROOT)/../../../ios/Carthage/Build/iOS/**/**",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../../../ios/Pods/UrbanAirship-iOS-SDK/AirshipKit/AirshipKit/**",
@@ -185,6 +198,11 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(SRCROOT)/../../../ios/Carthage/Build/iOS/**/**",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../../../ios/Pods/UrbanAirship-iOS-SDK/AirshipKit/AirshipKit/**",
